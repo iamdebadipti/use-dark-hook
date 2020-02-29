@@ -1,0 +1,21 @@
+:root {
+  /* background color variants */
+  --main-bg-light: #fefefe;
+  --main-bg-dark: #232323;
+
+  /* text color variants */
+  --text-light: #ffffff;
+  --text-dark: #333333;
+
+  /* cta variants */
+  --cta-light: #00798c;
+  --cta-dark: #d1495b;
+}
+
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
