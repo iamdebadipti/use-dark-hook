@@ -1,6 +1,6 @@
 {
   "name": "use-dark-hook",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A simple react hook for toggling dark mode in your website.",
   "main": "src/index.js",
   "scripts": {
