@@ -5,21 +5,20 @@ import ReactDOM from 'react-dom';
 import '../css/normalize.css';
 import '../css/main.css';
 
-// components
-import MainContainer from './MainContainer';
-
 // use-dark-hook
-import { useDarkHook } from '../../src/index';
+import { useDarkHook } from '../../build/use-dark-hook';
 
 const App = () => {
-  const [mode, toggleMode] = useDarkHook('dark');
+  const [mode, toggleMode] = useDarkHook();
 
   return (
-    <MainContainer>
+    <div className="main_container">
       <h1>Hello "use-dark-hook"</h1>
       <h2>Current Mode: {mode}</h2>
-      <button onClick={() => toggleMode()}>toggle mode</button>
-    </MainContainer>
+      <button onClick={() => toggleMode()} className={`${mode}_cta`}>
+        toggle mode
+      </button>
+    </div>
   );
 };
 
