@@ -32,3 +32,8 @@ export const getPreferredSystemTheme = () => {
 
   return preferredTheme;
 };
+
+// toggle body classname
+export const setBodyClassName = theme => {
+  document.body.className = theme;
+};
