@@ -1,7 +1,7 @@
 {
   "name": "use-dark-hook",
-  "version": "0.1.0",
-  "description": "A simple react hook for toggling dark mode in your website.",
+  "version": "0.2.0",
+  "description": "A straight forward & dead simple React Hook to implement dark mode in your website.",
   "source": "src/index.js",
   "main": "build/use-dark-hook.js",
   "scripts": {
@@ -36,5 +36,14 @@
     "react-dom": "^16.13.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "keywords": [
+    "dark-mode",
+    "react-dark-mode",
+    "dark-mode",
+    "theme",
+    "use-hooks",
+    "react",
+    "react-hooks"
+  ]
 }
