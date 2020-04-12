@@ -1,10 +1,14 @@
 # use-dark-hook
 
-A straight forward & dead simple [React Hook](https://reactjs.org/docs/hooks-intro.html) to implement dark mode in your website.
+A Zero Dependency, Light Weight [React Hook](https://reactjs.org/docs/hooks-intro.html) for your DARK need.
 
 [![npm version](https://badge.fury.io/js/use-dark-hook.svg)](https://badge.fury.io/js/use-dark-hook)
 
-❤️ it? Give a ⭐️ on [GitHub](https://github.com/iamdebadipti/use-dark-hook/stargazers)
+`use-dark-hook` uses _LocalStorage_ to store the user selected mode **(DARK/LIGHT)** and the selected mode will be loaded even if you close your app and open again. Also, if your user opens up your app for the first time, it detects the _User System Theme_, what color scheme they have on their system, and changes the mode automatically. (The browser must support `prefers-color-scheme` in order that to work).
+
+## Compatibility
+
+Your React App needs to be **16.8.0** or later to use React Hooks.
 
 ## Installation
 
@@ -14,7 +18,7 @@ $ npm i use-dark-hook
 
 ## Usage
 
-Import `use-dark-hook` in your React App 📦 and use the hook
+Import `use-dark-hook` in your React App 📦 and use the hook like this:
 
 ```jsx
 import { useDarkHook } from 'use-dark-hook';
@@ -33,7 +37,7 @@ const App = () => {
 };
 ```
 
-Add below CSS classes to your stylesheet. Feel free to change the colors as per your taste 🤪
+And, you need to add below CSS classes to your stylesheet. Of course, feel free to change the colors as per your taste 🤪
 
 ```css
 :root {
@@ -69,6 +73,10 @@ Add below CSS classes to your stylesheet. Feel free to change the colors as per 
 ```
 
 ### Enjoy "DARK MODE" 🎉🎉🎉
+
+❤️ it? Give a ⭐️ on [GitHub](https://github.com/iamdebadipti/use-dark-hook/stargazers)
+
+---
 
 ## Default Mode
 
