@@ -1,7 +1,7 @@
 {
   "name": "use-dark-hook",
   "version": "0.2.1",
-  "description": "A Zero Dependency, Light Weight Hook for your DARK NEED.",
+  "description": "A light-weight and straight forward library that adds 'dark mode' in your web app using React Hook.",
   "source": "src/index.js",
   "main": "build/use-dark-hook.js",
   "scripts": {
