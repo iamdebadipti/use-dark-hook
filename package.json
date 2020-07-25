@@ -45,5 +45,8 @@
     "use-hooks",
     "react",
     "react-hooks"
-  ]
+  ],
+  "resolutions": {
+    "**/**/lodash": "^4.17.19"
+  }
 }
