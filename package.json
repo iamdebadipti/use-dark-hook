@@ -47,6 +47,7 @@
     "react-hooks"
   ],
   "resolutions": {
-    "**/**/lodash": "^4.17.19"
+    "**/**/lodash": "^4.17.19",
+    "**/**/node-forge": "^0.10.0"
   }
 }
